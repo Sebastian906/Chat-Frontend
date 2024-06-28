@@ -3,7 +3,7 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 import logo from '../assets/logo.png'
 
-const Navigation = () => {
+function Navigation() {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
             <Container>
